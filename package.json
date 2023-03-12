@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx,.js",
+    "lint:fix": "pnpm lint --fix",
+    "format": "pnpm prettier -w \"src/**/*.{js,ts,json,css,tsx,jsx}\" \"*.{js,ts,mjs}\"",
+    "type:check": "pnpm tsc --noEmit"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "next-pwa": "^5.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.4",
+    "@types/react": "17.0.38",
+    "typescript": "4.5.4"
+  }
+}
