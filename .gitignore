@@ -1,0 +1,8 @@
+coverage
+node_modules
+dist
+netlify
+.DS_Store
+.vercel
+.solid
+auto-imports.d.ts
